@@ -22,7 +22,7 @@ from sqlalchemy.orm import sessionmaker
 # URI = engine://user:password@host:5432/database
 
 database = create_engine(
-    'postgres://ywbhjstvlwwguj:4169cd9bb75716133a084e53deb4481699ec6cdc5c2d253af098ffb00fc77457@ec2-18-211-48-247.compute-1.amazonaws.com:5432/dc69t4t9dl57ao')
+    'postgresql://ywbhjstvlwwguj:4169cd9bb75716133a084e53deb4481699ec6cdc5c2d253af098ffb00fc77457@ec2-18-211-48-247.compute-1.amazonaws.com:5432/dc69t4t9dl57ao')
 base = declarative_base()
 
 # ORM entidades de la bd
