@@ -1,0 +1,8 @@
+venv
+*.pyc
+.DS_Store
+.env
+*.xlsx
+*.csv
+*.xls
+scrot.py
